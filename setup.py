@@ -20,5 +20,8 @@ setup(
     author_email='giannaropoulou.foteini@gmail.com',
     url='https://github.com/fgiannar/pythonemailproviders',
     license=license,
-    packages=find_packages(exclude=('tests', 'docs'))
+    packages=find_packages(exclude=('tests', 'docs')),
+    install_requires=[
+        'requests',
+    ],
 )
