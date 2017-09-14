@@ -3,7 +3,7 @@ Email Providers Integration Module Repository
 
 This is a first attempt to create a python module and learn python :)
 What this module does is integrate with various popular email providers such as Mailchimp in order to add a subscriber to a given list.
----------------
+
 
 This repo's structure is based on Kenneth Reitz's sample module
 
@@ -11,9 +11,15 @@ This repo's structure is based on Kenneth Reitz's sample module
 
 ---------------
 
+Installation
+---------------
+::
+    pip install git+https://github.com/fgiannar/pythonemailproviders.git#egg=pythonemailproviders
+
 Usage
 ---------------
 ::
+    from providers.core import MailchimpProvider, KlaviyoProvider
 
     m = MailchimpProvider('YOUR_MAILCHIMP_API_KEY', 'YOUR_MAILCHIMP_LIST_ID')
 
