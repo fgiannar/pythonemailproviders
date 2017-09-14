@@ -14,11 +14,13 @@ This repo's structure is based on Kenneth Reitz's sample module
 Installation
 ---------------
 ::
+
     pip install git+https://github.com/fgiannar/pythonemailproviders.git#egg=pythonemailproviders
 
 Usage
 ---------------
 ::
+
     from providers.core import MailchimpProvider, KlaviyoProvider
 
     m = MailchimpProvider('YOUR_MAILCHIMP_API_KEY', 'YOUR_MAILCHIMP_LIST_ID')
